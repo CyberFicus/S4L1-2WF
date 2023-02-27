@@ -1,0 +1,17 @@
+C:\Users\Asus\source\repos\ТиМП\S4L1-2WF\S4L1-2WF\bin\Debug\net6.0-windows\S4L1-2WF.exe
+C:\Users\Asus\source\repos\ТиМП\S4L1-2WF\S4L1-2WF\bin\Debug\net6.0-windows\S4L1-2WF.deps.json
+C:\Users\Asus\source\repos\ТиМП\S4L1-2WF\S4L1-2WF\bin\Debug\net6.0-windows\S4L1-2WF.runtimeconfig.json
+C:\Users\Asus\source\repos\ТиМП\S4L1-2WF\S4L1-2WF\bin\Debug\net6.0-windows\S4L1-2WF.dll
+C:\Users\Asus\source\repos\ТиМП\S4L1-2WF\S4L1-2WF\bin\Debug\net6.0-windows\S4L1-2WF.pdb
+C:\Users\Asus\source\repos\ТиМП\S4L1-2WF\S4L1-2WF\obj\Debug\net6.0-windows\S4L1-2WF.csproj.AssemblyReference.cache
+C:\Users\Asus\source\repos\ТиМП\S4L1-2WF\S4L1-2WF\obj\Debug\net6.0-windows\S4L1_2WF.Form1.resources
+C:\Users\Asus\source\repos\ТиМП\S4L1-2WF\S4L1-2WF\obj\Debug\net6.0-windows\S4L1-2WF.csproj.GenerateResource.cache
+C:\Users\Asus\source\repos\ТиМП\S4L1-2WF\S4L1-2WF\obj\Debug\net6.0-windows\S4L1-2WF.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\source\repos\ТиМП\S4L1-2WF\S4L1-2WF\obj\Debug\net6.0-windows\S4L1-2WF.AssemblyInfoInputs.cache
+C:\Users\Asus\source\repos\ТиМП\S4L1-2WF\S4L1-2WF\obj\Debug\net6.0-windows\S4L1-2WF.AssemblyInfo.cs
+C:\Users\Asus\source\repos\ТиМП\S4L1-2WF\S4L1-2WF\obj\Debug\net6.0-windows\S4L1-2WF.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\ТиМП\S4L1-2WF\S4L1-2WF\obj\Debug\net6.0-windows\S4L1-2WF.dll
+C:\Users\Asus\source\repos\ТиМП\S4L1-2WF\S4L1-2WF\obj\Debug\net6.0-windows\refint\S4L1-2WF.dll
+C:\Users\Asus\source\repos\ТиМП\S4L1-2WF\S4L1-2WF\obj\Debug\net6.0-windows\S4L1-2WF.pdb
+C:\Users\Asus\source\repos\ТиМП\S4L1-2WF\S4L1-2WF\obj\Debug\net6.0-windows\S4L1-2WF.genruntimeconfig.cache
+C:\Users\Asus\source\repos\ТиМП\S4L1-2WF\S4L1-2WF\obj\Debug\net6.0-windows\ref\S4L1-2WF.dll
