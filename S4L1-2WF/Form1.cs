@@ -48,41 +48,78 @@ namespace S4L1_2WF
             }
         }
 
-        private void encrypt_btn_Click(object sender, EventArgs e) 
+        private void encrypt_btn_Click(object sender, EventArgs e)
         {
 
-            string caesar(string s) 
+            string caesar(string s, int shift)
             {
-                char shift(char c)
+                char shift_fun(char c, int shift)
                 {
-                    int a = ((int) c + 1);
+                    int a = ((int)c + shift);
 
-                    if (a == (int)'[')
+                    if (c >= 'A' && c <= 'Z')
                     {
-                        c = 'A';
-                    } else if (a == (int)'{')
-                    {
-                        c = 'a';
-                    } else
-                    {
+                        a -= (int)'A';
+                        a = a % 26;
+                        a += (int)'A';
                         c = (char)a;
                     }
-                    
+                    else if (c >= 'a' && c <= 'z')
+                    {
+                        a -= (int)'a';
+                        a = a % 26;
+                        a += (int)'a';
+                        c = (char)a;
+                    }
+
                     return c;
                 }
 
-                string res = ""; 
-                for (int i = 0; i < s.Length; i++) {
-                    res += shift(s[i]);
+                string res = "";
+                for (int i = 0; i < s.Length; i++)
+                {
+                    res += shift_fun(s[i], shift);
                 }
 
                 return res;
             }
 
-            string fn = textBox_fn.Text, sn = textBox_sn.Text;
-            string fn_c = caesar(fn), sn_c = caesar(sn);
+            try
+            {
+                int shift = Convert.ToInt32(textBox_shift.Text);
 
-            MessageBox.Show($"Before: {fn} {sn}\n After: {fn_c} {sn_c}");
+                string fn = textBox_fn.Text, sn = textBox_sn.Text;
+                string fn_c = caesar(fn, shift), sn_c = caesar(sn, shift);
+
+                MessageBox.Show($"Before: {fn} {sn}\n After: {fn_c} {sn_c}");
+            }
+            catch
+            {
+                MessageBox.Show("Error! Incorrect shift value!");
+            }
+
+        }
+
+        private void rand_btn_Click(object sender, EventArgs e)
+        {
+            string rand_name()
+            {
+                Random rand = new Random();
+                
+                String s = "";
+                s += (char) rand.Next((int)'A', (int)'Z');
+
+                int len = rand.Next(4, 10);
+                for (int i = 1; i<len; i++)
+                {
+                    s += (char) rand.Next((int)'a', (int)'z');
+                }
+
+                return s;
+            }
+
+            textBox_fn.Text = rand_name();
+            textBox_sn.Text = rand_name();
         }
     }
 
